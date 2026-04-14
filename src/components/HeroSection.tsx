@@ -1,34 +1,3 @@
-// import { useLanguage } from '@/contexts/LanguageContext';
-// import heroBg from '@/assets/hero-bg.jpg';
-
-// export default function HeroSection() {
-//   const { t } = useLanguage();
-
-//   return (
-//     <section className="relative overflow-hidden py-20 px-4">
-//       <div className="absolute inset-0 opacity-20">
-//         <img src={heroBg} alt="" className="w-full h-full object-cover" />
-//       </div>
-//       <div className="relative z-10 max-w-4xl mx-auto text-center animate-fade-in-up">
-//         <h1 className="text-4xl md:text-6xl font-display font-bold mb-4">
-//           <span className="text-green-grad">HaritBandhu</span>
-//         </h1>
-//         <p className="text-xl md:text-2xl text-foreground/80 font-light mb-3">{t.heroTitle}</p>
-//         <p className="text-muted-foreground max-w-xl mx-auto mb-8">{t.heroSubtitle}</p>
-//         <div className="flex flex-wrap justify-center gap-3">
-//           {['🌾 Pest Detection', '🤖 AI Chat', '📊 Market Prices', '🌤 Weather', '🏛 Schemes', '🧪 Soil Health'].map(item => (
-//             <span key={item} className="bg-primary/10 border border-primary/30 text-primary text-sm px-4 py-2 rounded-full">{item}</span>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
-
-
-
-
 import { useState, useEffect } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import heroBg from '@/assets/hero-bg.jpg';
