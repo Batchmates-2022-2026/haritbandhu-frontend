@@ -22,8 +22,8 @@ Academic Year 2025–26
 **Team Members:**
 | Name | Role |
 |---|---|
-| Simran | Team Lead & Frontend Developer |
-| Sneha Gupta | Backend Developer |
+| Sneha Gupta |  Team Lead & Backend Developer |
+| Simran Savita | Frontend Developer |
 | Jatin Yadav | Backend Developer & QA |
 
 </div>
@@ -157,12 +157,16 @@ HaritBandhu addresses all these through a single, intuitive web application with
 
 ### Backend (Spring Boot)
 | Technology | Purpose |
-|---|---|
-| Spring Boot 3 | REST API Framework |
-| Spring Security + JWT | Authentication |
-| MySQL | Database |
-| Gemini AI API | AI Chat Assistant |
-| Firebase Admin SDK | Push Notification dispatch |
+| Spring Boot | Backend Framework (REST APIs) | 
+| Spring Security + JWT | Authentication & Authorization |
+| MySQL | Database Management | 
+| Groq LLM | AI Chatbot & Pest Detection |
+| Firebase Admin SDK | Push Notifications |
+| Redis | Caching Layer |
+| RabbitMQ |Asynchronous Processing |
+| Docker | Containerization & Service Management |
+| Railway |Backend & Database Deployment|
+| Vercel |Frontend Deployment
 
 ---
 
