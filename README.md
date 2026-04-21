@@ -22,9 +22,9 @@ Academic Year 2025–26
 **Team Members:**
 | Name | Role |
 |---|---|
-| Sneha Gupta |  Team Lead & Backend Developer |
-| Simran Savita | Frontend Developer |
-| Jatin Yadav | Backend Developer & QA |
+| Sneha Gupta |  Team Lead & Backend Developer( Backend +System +APIs ) |
+| Simran Savita | Frontend Developer & QA |
+| Jatin Yadav | Backend Developer (Database + Security )|
 
 </div>
 
@@ -129,7 +129,7 @@ HaritBandhu addresses all these through a single, intuitive web application with
 │  /schemes  /soil  /community  /crop  /admin                  │
 │                                                              │
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐   │
-│  │ MySQL DB │  │  Gemini  │  │  Weather │  │  APMC    │   │
+│  │ MySQL DB │  │  Groq │  │  Weather │  │  APMC    │   │
 │  │          │  │   API    │  │   API    │  │  Data    │   │
 │  └──────────┘  └──────────┘  └──────────┘  └──────────┘   │
 └─────────────────────────────────────────────────────────────┘
