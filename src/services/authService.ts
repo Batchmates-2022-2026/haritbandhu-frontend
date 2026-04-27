@@ -25,7 +25,7 @@ export const authService = {
    * Register a new user.
    */
   register: async (data: RegisterRequest): Promise<AuthResponse> => {
-    const response = await apiClient.post<AuthResponse>("/auth/register", data);
+    const response = await apiClient.post<AuthResponse>("/auth/signup", data);
     const { token } = response.data;
     if (token) {
       localStorage.setItem("hb_jwt", token);
