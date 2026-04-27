@@ -87,7 +87,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const signup = async (data: Omit<User, 'id' | 'role'> & { password: string }): Promise<boolean> => {
     try {
-      await authService.register({
+      await authService.signup({
         name: data.username,
         email: data.email,
         password: data.password,
