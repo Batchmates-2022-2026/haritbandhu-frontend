@@ -4,7 +4,7 @@ import type { LoginRequest, RegisterRequest, AuthResponse } from "../types";
 // ─────────────────────────────────────────────────────────────────────────────
 // Auth Service
 // POST /auth/login
-// POST /auth/register
+// POST /auth/signup
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const authService = {
@@ -24,7 +24,7 @@ export const authService = {
   /**
    * Register a new user.
    */
-  register: async (data: RegisterRequest): Promise<AuthResponse> => {
+  signup: async (data: RegisterRequest): Promise<AuthResponse> => {
     const response = await apiClient.post<AuthResponse>("/auth/signup", data);
     const { token } = response.data;
     if (token) {
